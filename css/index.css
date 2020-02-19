@@ -1,1 +1,230 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 5px;
+}
+body p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  line-height: 1.4;
+}
+.container nav {
+  display: flex;
+  justify-content: center;
+}
+.container nav a {
+  text-decoration: none;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.container .sub-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+.container .sub-header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  height: 3vh;
+  letter-spacing: 10px;
+  background: rgba(127, 229, 209, 0.6);
+}
+.container .section-container {
+  margin-top: 5rem;
+}
+.container .section-container .top-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+.container .section-container .top-section section {
+  width: 50%;
+}
+.container .section-container .skills {
+  margin-bottom: 4rem;
+  padding-left: 3rem;
+}
+.container .section-container .education {
+  margin-bottom: 4rem;
+  padding-left: 3rem;
+}
+.container .section-container .experience .experience-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.container .section-container .experience .experience-parent section {
+  width: 47%;
+}
+.container .section-container .experience span {
+  font-weight: bold;
+  margin-right: 1.5rem;
+  display: inline-block;
+  padding-top: 1rem;
+}
+.container .section-container .experience p {
+  padding-left: 3rem;
+  font-size: 1rem;
+}
+.container .section-container .experience ul {
+  padding: 0 0 0 3rem;
+  margin-bottom: 2rem;
+}
+.container .section-container .experience ul li {
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+.container footer {
+  padding: 3rem 0 0;
+  margin: 2rem 0 1rem;
+  border-top: 3px solid rgba(127, 229, 209, 0.6);
+  display: flex;
+  justify-content: center;
+}
+.container footer a {
+  text-decoration: none;
+}
