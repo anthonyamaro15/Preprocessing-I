@@ -137,6 +137,7 @@ table {
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto:400,700&display=swap");
 
 @text-color: #555;
+@main-color: rgba(127, 229, 209, 0.6);
 
 .flexMix(@justify, @align) {
   display: flex;
@@ -252,7 +253,7 @@ body {
       .upperC();
       height: 3vh;
       letter-spacing: 10px;
-      background: rgba(127, 229, 209, 0.6);
+      background: @main-color;
       font-family: "Montserrat", sans-serif;
 
       @media (max-width: 800px) {
@@ -294,6 +295,16 @@ body {
 
       @media (max-width: 500px) {
         margin-bottom: 2rem;
+      }
+
+      .contact {
+        p {
+          padding: 0.1rem;
+          a {
+            color: rgb(215, 69, 69);
+            text-decoration: none;
+          }
+        }
       }
 
       section {
@@ -398,7 +409,7 @@ body {
   footer {
     padding: 3rem 0 1rem;
     margin: 2rem 0 0 0;
-    border-top: 3px solid rgba(127, 229, 209, 0.6);
+    border-top: 3px solid @main-color;
     .flexMix(center, center);
     flex-direction: column;
 

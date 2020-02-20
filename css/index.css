@@ -304,6 +304,13 @@ body span {
     margin-bottom: 2rem;
   }
 }
+.container .section-container .top-section .contact p {
+  padding: 0.1rem;
+}
+.container .section-container .top-section .contact p a {
+  color: #d74545;
+  text-decoration: none;
+}
 .container .section-container .top-section section {
   width: 47%;
 }
